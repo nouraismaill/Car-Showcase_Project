@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="relative w-full  ">
-      <div className="w-full px-8 mx-auto max-w-7xl">
+    <footer className="relative w-full mt-8 bg-[#FBFCF8]">
+      <div className="w-full px-8 mx-auto max-w-7xl pt-9">
         <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
           <Image
             src="/logo.svg"
